@@ -15,6 +15,43 @@
 
 		<link rel="stylesheet" href="style.css">
 
+		<script>
+			var curBut = 0;
+
+			function myFunction(){
+
+				if(curBut == 0){
+
+					document.getElementById("AboBut").style.background = "#00cc7a";
+					document.getElementById("AboBut").style.color = "#343434";
+
+					document.getElementById("ProBut").style.background = "#333333";
+					document.getElementById("ProBut").style.color = "#999999";
+
+		           	$(document).ready(function(){
+		               	$('#content').load('about.html').hide().fadeIn(750);
+		          	});
+
+					curBut = 1;
+				}
+
+				else{
+
+					document.getElementById("AboBut").style.background = "#333333";
+					document.getElementById("AboBut").style.color = "#999999";
+
+					document.getElementById("ProBut").style.background = "#00cc7a";
+					document.getElementById("ProBut").style.color = "#343434";
+
+		           	$(document).ready(function(){
+		               	$('#content').load('projects.html').hide().fadeIn(750);
+		           	});
+
+					curBut = 0;			
+				}
+			}
+		</script>
+
 	</head>
 
 	<body onload="myFunction()">
@@ -52,42 +89,6 @@
 			</div>
 		</div>
 
-		<script type="text/javascript">
-			var curBut = 0;
-
-			function myFunction(){
-
-				if(curBut == 0){
-
-					document.getElementById("AboBut").style.background = "#00cc7a";
-					document.getElementById("AboBut").style.color = "#343434";
-
-					document.getElementById("ProBut").style.background = "#333333";
-					document.getElementById("ProBut").style.color = "#999999";
-
-		           	$(document).ready(function(){
-		               	$('#content').load('about.html').hide().fadeIn(750);
-		          	});
-
-					curBut = 1;
-				}
-
-				else{
-
-					document.getElementById("AboBut").style.background = "#333333";
-					document.getElementById("AboBut").style.color = "#999999";
-
-					document.getElementById("ProBut").style.background = "#00cc7a";
-					document.getElementById("ProBut").style.color = "#343434";
-
-		           	$(document).ready(function(){
-		               	$('#content').load('projects.html').hide().fadeIn(750);
-		           	});
-
-					curBut = 0;			
-				}
-			}
-		</script>
 
 	</body>
 
