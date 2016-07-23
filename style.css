@@ -1,0 +1,83 @@
+header.header h1{
+
+	border-left: 10px solid #00cc7a;
+	padding-left: 5px;
+	margin-top: 50px;
+
+	font-size: 40px;
+	font-weight: 250;
+	color: #999999;
+}
+
+#ProBut{
+
+	border-left: 10px solid #00cc7a;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-top: 50px;
+
+	font-size: 35px;
+	font-weight: 250;
+	color: #999999;
+
+	border: none;
+	background-color: #333333;
+
+	transition-duration: .75s;
+}
+
+#AboBut{
+
+	border-left: 10px solid #00cc7a;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-top: 50px;
+
+	font-size: 35px;
+	font-weight: 250;
+	color: #999999;
+
+	border: none;
+	background-color: #00cc7a;
+
+	transition-duration: .75s;
+}
+
+div.main{
+
+	background-color: #404040;
+	color: #e6e6e6;
+
+	padding: 5px;
+
+	transition-duration: .75s;
+}
+
+div.main h3{
+
+	font-size: 25px;
+	font-weight: 200;
+}
+
+div.project h3{
+
+	font-size: 25px;
+	font-weight: 200;
+}
+
+div.main h4{
+
+	font-size: 20px;
+	font-weight: 200;
+}
+
+
+#content{
+
+	transition-duration: .75s;
+}
+
+body{
+
+	background-color: #333333;
+}
