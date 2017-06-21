@@ -21,6 +21,7 @@ header.header h1{
 	color: #999999;
 
 	border: none;
+	outline: 0;
 	background-color: #333333;
 
 	transition-duration: .75s;
@@ -38,6 +39,7 @@ header.header h1{
 	color: #999999;
 
 	border: none;
+	outline: none;
 	background-color: #00cc7a;
 
 	transition-duration: .75s;
